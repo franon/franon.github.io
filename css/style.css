@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+#bungkus {
+/*    background-image: url(../img/coffee2.jpeg);  */
+    height: 100%;
+/*
+    background-position: center;
+    background-size: cover;
+*/
+
+    position: relative;
+    color: wheat;
+    
+    
+}
+
+#myVideo{
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#nav img {
+    margin: 10px;
+    padding: 10px;
+}
+
+#content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+h1{
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 2px;
+}
+p {
+    text-align: center;
+    padding: 5px;
+    font-size: 30px;
+        
+}
+
+hr {
+    margin: auto;
+    width: 40%;
+}
